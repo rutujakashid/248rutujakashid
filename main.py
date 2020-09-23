@@ -1,4 +1,4 @@
-f=open('filehandling','rt')
+f=open('filehandling','r')
 num_words=0
 num_lines=0
 num_char=0
