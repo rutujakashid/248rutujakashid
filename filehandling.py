@@ -1,9 +1,16 @@
 f=open('filehandling','w')
 f.write("Hello, count the total no of words in this file")
 
-f=open('filehandling','r')
+f=open('filehandling','rt')
 num_words=0
+num_lines=0
+num_char=0
 for i in f :
+    num_lines +=1
     words =i.split()
     num_words +=len(words)
-print("counting of words  in the file",num_words)
+    num_char=len(i)
+
+
+print("counting of lines ,words ,character in the file",num_lines,num_words,num_char)
+
