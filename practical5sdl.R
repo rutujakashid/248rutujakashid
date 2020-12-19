@@ -2,14 +2,16 @@
 #upload dataset
 dataset<-read.csv('C:\\Users\\DELL\\Documents\\datafile1.csv')
 
+#to view first 10 rows
+dataset[1:10, ]
+
 #dimensions of dataset
 dim(dataset)
 
 #str shows variable types
 str(dataset)
 
-#to view first 10 rows
-dataset[1:10, ]
+
 
 #summary of all columns of dataset
 summary(dataset)
