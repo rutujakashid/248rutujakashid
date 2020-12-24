@@ -17,9 +17,14 @@ summary(mydata)
 
 #checks the entire data set for NAs and return logical output
 is.na(mydata)
+
+#gives total NA present in the columns
 colSums(is.na(mydata))
+
+
 #replace na to 0 in column breed.of.horse.malani
 mydata[is.na(mydata)] = 0
+
 
 #data visualization
 col_total<-mydata[,11]
