@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG9mZmljZSUyMGRlc2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: 120% ;
+    background-position: -400px 20px;
+
+
+}
+div.main {
+    width:500px;
+    margin: 100px auto 50px auto;
+
+}
+
+h2{
+    text-align: centre;
+    padding: 20px;
+    font-family: sans-serif;
+    
+
+}
+div.assign{
+    background-color:rgba (0,0,0,05);
+    width:100%;
+    font-size: 20px;
+    border-radius:15px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px 
+    rgba(22, 5, 5, 0.3);
+    color:rgb(20, 6, 6);
+
+}
+form#assign{
+    margin: 50px;
+
+}
+label  {
+    font-family: sans;
+    font-size:25px ;
+    font-style:italic ;
+}
+
+button{
+    font-size: larger;
+    background-color: rgb(173, 170, 173);
+}
+
